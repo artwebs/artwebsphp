@@ -1,0 +1,5 @@
+$(function(){
+				// Accordion
+				$('#tabs').tabs();
+
+});
