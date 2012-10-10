@@ -6,7 +6,7 @@ class pdaAction extends ActionPda {
 		$this->smarty_init();
 	}
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=getreturn
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=getreturn
 	 */
 	function getreturn(){
 		$inarr=array("MESSAGEID"=>'短信编号',
@@ -25,7 +25,7 @@ class pdaAction extends ActionPda {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=get_info
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=get_info
 	 */
 	function get_info(){
 		$inarr=array(
@@ -47,7 +47,7 @@ class pdaAction extends ActionPda {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=get_sessioninfo
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=get_sessioninfo
 	 */
 	function get_sessioninfo(){
 		$inarr=array(
@@ -72,7 +72,7 @@ class pdaAction extends ActionPda {
 
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=get_list
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=get_list
 	 */
 	function get_list(){
 		$inarr=array(
@@ -95,7 +95,7 @@ class pdaAction extends ActionPda {
 
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=getui
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=getui
 	 */
 	function getui(){
 		$para=array(
@@ -108,7 +108,7 @@ class pdaAction extends ActionPda {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=pda&act=getpageui
+	 *http://localhost/artwebsphp/index.php?mod=pda&act=getpageui
 	 */
 	function getpageui(){
 		$para=array(

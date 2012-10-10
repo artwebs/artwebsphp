@@ -4,7 +4,7 @@ class excelAction extends Action{
 
 	/**
 	 * 列表查询接口
-	 * 性别  eg: http://localhost/LHBSystem_1/index.php?mod=excel&act=export
+	 * 性别  eg: http://localhost/artwebsphp/index.php?mod=excel&act=export
 	 */
     function export()
     {

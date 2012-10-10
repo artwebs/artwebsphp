@@ -9,7 +9,7 @@ class servAction extends ServiceClientAction{
     }
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=serv&act=test
+	 *http://localhost/artwebsphp/index.php?mod=serv&act=test
 	 */
     function test()
     {
@@ -25,7 +25,7 @@ class servAction extends ServiceClientAction{
 
 
    /**
-	 *http://localhost/LHBSystem_1/index.php?mod=serv&act=test1
+	 *http://localhost/artwebsphp/index.php?mod=serv&act=test1
 	 */
     function test1()
     {
@@ -41,7 +41,7 @@ class servAction extends ServiceClientAction{
     }
 
    	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=serv&act=teststring
+	 *http://localhost/artwebsphp/index.php?mod=serv&act=teststring
 	 */
     function teststring()
     {

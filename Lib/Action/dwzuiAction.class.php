@@ -3,7 +3,7 @@
 class dwzuiAction extends ActionDwzUi {
 
   	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=dwzui&act=layout1
+	 * http://localhost/artwebsphp/index.php?mod=dwzui&act=layout1
 	 */
 	function layout1()
 	{
@@ -38,7 +38,7 @@ EOT;
 
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=dwzui&act=layout2
+	 * http://localhost/artwebsphp/index.php?mod=dwzui&act=layout2
 	 */
 	function layout2()
 	{

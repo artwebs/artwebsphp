@@ -6,8 +6,8 @@ class exampleservicesAction extends ActionXmlI {
 	public $userkey='user81';
 	/**
 	 * 列表查询接口
-	 * 性别 sex  eg: http://localhost/LHBSystem_1/index.php?mod=exampleservices&act=queryservicelist
-	 * 来源 source eg:http://localhost/LHBSystem_1/index.php?mod=exampleservices&act=queryservicelist
+	 * 性别 sex  eg: http://localhost/artwebsphp/index.php?mod=exampleservices&act=queryservicelist
+	 * 来源 source eg:http://localhost/artwebsphp/index.php?mod=exampleservices&act=queryservicelist
 	 */
 	function queryservicelist()
 	{

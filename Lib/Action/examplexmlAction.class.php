@@ -4,8 +4,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 列表查询接口
-	 * 性别 sex  eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=glist&sex=1
-	 * 来源 source eg:http://localhost/LHBSystem_1/index.php?mod=examplexml&act=glist&source=1
+	 * 性别 sex  eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=glist&sex=1
+	 * 来源 source eg:http://localhost/artwebsphp/index.php?mod=examplexml&act=glist&source=1
 	 */
 	function glist($sex='',$source='')
 	{
@@ -29,8 +29,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 列表查询接口(带搜索节点)
-	 * 性别 sex  eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=gdlist&sex=1
-	 * 来源 source eg:http://localhost/LHBSystem_1/index.php?mod=examplexml&act=gdlist&source=1
+	 * 性别 sex  eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=gdlist&sex=1
+	 * 来源 source eg:http://localhost/artwebsphp/index.php?mod=examplexml&act=gdlist&source=1
 	 */
 	function gdlist($sex='',$source='')
 	{
@@ -53,7 +53,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 详细查询接口
-	 * 传入编号 id eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=info&id=3
+	 * 传入编号 id eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=info&id=3
 	 */
 	function info($id='')
 	{
@@ -76,7 +76,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 带session的详细查询接口
-	 * 传入编号 id eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=sissoninfo&id=2
+	 * 传入编号 id eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=sissoninfo&id=2
 	 */
 	function sissoninfo($id='')
 	{
@@ -101,8 +101,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 表单界面接口
-	 * 无session session eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=ui
-	 * session session eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=ui&session=session20120318162222983415
+	 * 无session session eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=ui
+	 * session session eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=ui&session=session20120318162222983415
 	 */
 	function ui()
 	{
@@ -123,8 +123,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 分页表单界面接口
-	 * 无session session eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=pageui
-	 * session session eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=pageui&session=session20120317005115893040
+	 * 无session session eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=pageui
+	 * session session eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=pageui&session=session20120317005115893040
 	 */
 	function pageui()
 	{
@@ -148,7 +148,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 表单界面接口（修改信息）
-	 * 人员编号 id eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=dataui&id=1
+	 * 人员编号 id eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=dataui&id=1
 	 */
 	function dataui($id='')
 	{
@@ -179,7 +179,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 分页表单界面接口（修改信息）
-	 *人员编号 id eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=pagedataui&id=1
+	 *人员编号 id eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=pagedataui&id=1
 	 */
 	function pagedataui($id='')
 	{
@@ -215,7 +215,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 返回成功接口
-	 *http://localhost/LHBSystem_1/index.php?mod=examplexml&act=rstrue
+	 *http://localhost/artwebsphp/index.php?mod=examplexml&act=rstrue
 	 */
 	function rstrue()
 	{
@@ -227,7 +227,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 返回失败及添加其他节点接口
-	 *http://localhost/LHBSystem_1/index.php?mod=examplexml&act=rsfalse
+	 *http://localhost/artwebsphp/index.php?mod=examplexml&act=rsfalse
 	 */
 	function rsfalse()
 	{
@@ -248,8 +248,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 数据查询返回样式一
-	 * 性别 sex  eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=dataI&sex=1
-	 * 来源 source eg:http://localhost/LHBSystem_1/index.php?mod=examplexml&act=dataI&source=1
+	 * 性别 sex  eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=dataI&sex=1
+	 * 来源 source eg:http://localhost/artwebsphp/index.php?mod=examplexml&act=dataI&source=1
 	 */
 	function dataI($sex='',$source='')
 	{
@@ -265,8 +265,8 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 数据查询返回样式二
-	 * 性别 sex  eg: http://localhost/LHBSystem_1/index.php?mod=examplexml&act=dataII&sex=1
-	 * 来源 source eg:http://localhost/LHBSystem_1/index.php?mod=examplexml&act=dataII&source=1
+	 * 性别 sex  eg: http://localhost/artwebsphp/index.php?mod=examplexml&act=dataII&sex=1
+	 * 来源 source eg:http://localhost/artwebsphp/index.php?mod=examplexml&act=dataII&source=1
 	 */
 	function dataII($sex='',$source='')
 	{
@@ -281,7 +281,7 @@ class examplexmlAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=examplexmlI&act=saveData&login_name=user8
+	 *http://localhost/artwebsphp/index.php?mod=examplexmlI&act=saveData&login_name=user8
 	 */
 	function saveData()
 	{
@@ -292,7 +292,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 设置（获取）缓存数据
-	 * http://localhost/LHBSystem_1/index.php?mod=examplexml&act=setcache
+	 * http://localhost/artwebsphp/index.php?mod=examplexml&act=setcache
 	 */
 	function setcache()
 	{
@@ -307,7 +307,7 @@ class examplexmlAction extends ActionXmlI {
 
 	/**
 	 * 获取自己定义参数
-	 * http://localhost/LHBSystem_1/index.php?mod=examplexml&act=getlocalconfig
+	 * http://localhost/artwebsphp/index.php?mod=examplexml&act=getlocalconfig
 	 */
 	function getlocalconfig()
 	{

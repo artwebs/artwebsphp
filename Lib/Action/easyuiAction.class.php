@@ -3,7 +3,7 @@
 class easyuiAction extends ActionEasyUi {
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=easyui&act=layout1
+	 * http://localhost/artwebsphp/index.php?mod=easyui&act=layout1
 	 */
 	function layout1()
 	{

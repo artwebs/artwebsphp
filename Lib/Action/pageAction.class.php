@@ -2,7 +2,7 @@
 
 class pageAction extends ActionPage {
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=page&act=index
+	 *http://localhost/artwebsphp/index.php?mod=page&act=index
 	 */
 	function index()
 	{
@@ -13,7 +13,7 @@ class pageAction extends ActionPage {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=page&act=login
+	 *http://localhost/artwebsphp/index.php?mod=page&act=login
 	 */
 	function login(){
 		$txt="你好";
@@ -24,7 +24,7 @@ class pageAction extends ActionPage {
 
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=page&act=content
+	 *http://localhost/artwebsphp/index.php?mod=page&act=content
 	 */
 	function content(){
 		$txt="你好";
@@ -35,7 +35,7 @@ class pageAction extends ActionPage {
 	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=page&act=accordion
+	 * http://localhost/artwebsphp/index.php?mod=page&act=accordion
 	 */
 	function accordion()
 	{
@@ -46,7 +46,7 @@ class pageAction extends ActionPage {
 
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=page&act=Tabs
+	 * http://localhost/artwebsphp/index.php?mod=page&act=Tabs
 	 */
 	function Tabs()
 	{
@@ -56,7 +56,7 @@ class pageAction extends ActionPage {
 	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=page&act=dialog
+	 * http://localhost/artwebsphp/index.php?mod=page&act=dialog
 	 */
 	function dialog()
 	{
@@ -66,7 +66,7 @@ class pageAction extends ActionPage {
 	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=page&act=tree
+	 * http://localhost/artwebsphp/index.php?mod=page&act=tree
 	 */
 	function tree()
 	{

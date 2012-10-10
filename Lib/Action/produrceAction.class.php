@@ -3,7 +3,7 @@
 class produrceAction extends ActionXmlI {
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=produrce&act=rsstring
+	 * http://localhost/artwebsphp/index.php?mod=produrce&act=rsstring
 	 */
  	function rsstring()
  	{
@@ -14,7 +14,7 @@ class produrceAction extends ActionXmlI {
  	}
 
  	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=produrce&act=addstring
+	 * http://localhost/artwebsphp/index.php?mod=produrce&act=addstring
 	 */
  	function addstring()
  	{
@@ -26,7 +26,7 @@ class produrceAction extends ActionXmlI {
  	}
 
  	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=produrce&act=addint
+	 * http://localhost/artwebsphp/index.php?mod=produrce&act=addint
 	 */
  	function addint()
  	{
@@ -38,7 +38,7 @@ class produrceAction extends ActionXmlI {
  	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=produrce&act=rsrow
+	 * http://localhost/artwebsphp/index.php?mod=produrce&act=rsrow
 	 */
  	function rsrow()
  	{
@@ -50,7 +50,7 @@ class produrceAction extends ActionXmlI {
  	}
 
  	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=produrce&act=addint2
+	 * http://localhost/artwebsphp/index.php?mod=produrce&act=addint2
 	 */
  	function addint2()
  	{

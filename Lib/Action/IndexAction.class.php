@@ -72,7 +72,7 @@ class IndexAction extends ActionXml {
 //		$txt="nexturl";
 //		echo substr($txt,-3);
 
-//		var_dump(preg_match("/[^\w]*".C("OPER_ACTION")."=\w+/i","http://localhost/LHBSystem_1/index.php?mod=xml&act=getpageui"));
+//		var_dump(preg_match("/[^\w]*".C("OPER_ACTION")."=\w+/i","http://localhost/artwebsphp/index.php?mod=xml&act=getpageui"));
 //		echo date('YmdHis').(microtime()*1000000);
 //		echo urlencode('性别');
 //		$arr=array('xm'=>'张三','xb'=>'男');
@@ -87,7 +87,7 @@ class IndexAction extends ActionXml {
 //		rows_key_case($arr,CASE_UPPER);
 //		print_r($arr);
 //		echo substr("xxxModel",0,-5);
-//		return submit_get('http://localhost/LHBSystem_1/index.php?mod=Dic&act=diclist&groupname=%E6%80%A7%E5%88%AB',array(),20);
+//		return submit_get('http://localhost/artwebsphp/index.php?mod=Dic&act=diclist&groupname=%E6%80%A7%E5%88%AB',array(),20);
 		$vartemp=array();
 		var_dump(preg_match_all("/(\w+)-\>(\w+)\((.+)\)/i",'ExampleDModel->composeString(xb,[SEX],[SOURCE])',$vartemp));
 //    	return '1111';
@@ -110,7 +110,7 @@ class IndexAction extends ActionXml {
     }
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?act=getInterface
+	 * http://localhost/artwebsphp/index.php?act=getInterface
 	 */
     function getInterface(){
 

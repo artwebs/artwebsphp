@@ -2,7 +2,7 @@
 
 class xmlIAction extends ActionXmlI {
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xml&act=getreturn
+	 *http://localhost/artwebsphp/index.php?mod=xml&act=getreturn
 	 */
 	function getreturn()
 	{
@@ -20,7 +20,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getinfo
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getinfo
 	 */
 	function getinfo()
 	{
@@ -48,7 +48,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getsissoninfo
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getsissoninfo
 	 */
 	function getsissoninfo()
 	{
@@ -77,7 +77,7 @@ class xmlIAction extends ActionXmlI {
 
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xml&act=getlist
+	 *http://localhost/artwebsphp/index.php?mod=xml&act=getlist
 	 */
 	function getlist()
 	{
@@ -107,7 +107,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getui&session=session20110602131904140820
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getui&session=session20110602131904140820
 	 */
 	function getui()
 	{
@@ -128,7 +128,7 @@ class xmlIAction extends ActionXmlI {
 
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getpageui
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getpageui
 	 */
 	function getpageui()
 	{
@@ -152,7 +152,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getdataui
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getdataui
 	 */
 	function getdataui()
 	{
@@ -181,7 +181,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getpagedataui
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=getpagedataui
 	 */
 	function getpagedataui()
 	{
@@ -214,7 +214,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xmlI&act=saveData&login_name=user8
+	 *http://localhost/artwebsphp/index.php?mod=xmlI&act=saveData&login_name=user8
 	 */
 	function saveData()
 	{
@@ -224,7 +224,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xml&act=getdataI
+	 *http://localhost/artwebsphp/index.php?mod=xml&act=getdataI
 	 */
 	function getdataI()
 	{
@@ -241,7 +241,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=xml&act=getdataII
+	 *http://localhost/artwebsphp/index.php?mod=xml&act=getdataII
 	 */
 	function getdataII()
 	{
@@ -259,7 +259,7 @@ class xmlIAction extends ActionXmlI {
 
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=xmlI&act=runcache
+	 * http://localhost/artwebsphp/index.php?mod=xmlI&act=runcache
 	 */
 	function runcache()
 	{
@@ -272,7 +272,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=xmlI&act=getlocalconfig
+	 * http://localhost/artwebsphp/index.php?mod=xmlI&act=getlocalconfig
 	 */
 	function getlocalconfig()
 	{
@@ -280,7 +280,7 @@ class xmlIAction extends ActionXmlI {
 	}
 
 	/**
-	 * http://localhost/LHBSystem_1/index.php?mod=xmlI&act=rs
+	 * http://localhost/artwebsphp/index.php?mod=xmlI&act=rs
 	 */
 	function rs()
 	{

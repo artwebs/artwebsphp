@@ -2,7 +2,7 @@
 
 class sysAction extends ActionXmlI {
 	/**
-	 *http://localhost/LHBSystem_1/index.php?mod=sys&act=test
+	 *http://localhost/artwebsphp/index.php?mod=sys&act=test
 	 */
 	function test()
 	{

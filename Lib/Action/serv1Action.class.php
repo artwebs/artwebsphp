@@ -20,9 +20,9 @@ class serv1Action extends Action {
     }
 
     /**
-     * http://localhost/LHBSystem_1/index.php?mod=serv1&act=getarray
-     * http://localhost/LHBSystem_1/index.php?mod=serv1&act=getdataI
-     * http://localhost/LHBSystem_1/index.php?mod=serv1&act=gettxt&a=1&b=2
+     * http://localhost/artwebsphp/index.php?mod=serv1&act=getarray
+     * http://localhost/artwebsphp/index.php?mod=serv1&act=getdataI
+     * http://localhost/artwebsphp/index.php?mod=serv1&act=gettxt&a=1&b=2
      */
 
      function gettxt()
